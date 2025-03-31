@@ -5,4 +5,4 @@ we need to create a file  11-media-by-label-auto-mount.rules in /etc/udev/rules.
 after we've created script and saved it, reload udev with:
 udevadm control --reload-rules
 
-and then enjoy connecting the USB storege device, udev  should automatically create a driectory under /media.
+ udev  should automatically create a driectory under /media.
